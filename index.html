@@ -36,10 +36,10 @@
               <a class="nav-link" aria-current="page" href="#services">HİZMETLERİMİZ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#gallery">GALERİ</a>
+              <a class="nav-link" aria-current="page" href="#contact">İLETİŞİM</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#contact">İLETİŞİM</a>
+              <a class="nav-link" aria-current="page" href="gallery.html">GALERİ</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#language" role="button" data-bs-toggle="dropdown"
@@ -58,7 +58,7 @@
   <!--HEADER SECTION ENDS-->
   <!--SLIDER SECTION STARTS-->
   <div class="slider" id="home">
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -68,7 +68,7 @@
           aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" data-bs-interval="3000">
           <img src="images/yachts.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
             <h5>KWM MARİN ELEKTRİK ELEKTRONİK</h5>
@@ -76,7 +76,7 @@
             <p><a href="#" class="btn btn-primary mt-3">Daha fazla bilgi edinin..</a></p>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-bs-interval="4000">
           <img src="images/portofino.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
             <h5>KWM MARİN ELEKTRİK ELEKTRONİK</h5>
@@ -84,7 +84,7 @@
             <p><a href="#" class="btn btn-primary mt-3">Daha fazla bilgi edinin..</a></p>
           </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-bs-interval="4000">
           <img src="images/port.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption">
             <h5>KWM MARİN ELEKTRİK ELEKTRONİK</h5>
@@ -93,16 +93,6 @@
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
   </div>
   <!--SLIDER SECTION ENDS-->
@@ -205,50 +195,6 @@
       </div>
   </section>
   <!--SERVİCES SECTION ENDS-->
-  <!--GALLERY SECTION STARTS-->
-
-  <section id="gallery" class="gallery section-padding">
-    <div class="container">
-      <div class="section-header text-center pb-3">
-        <h3>GALERİ</h3>
-        <p>Sektördeki son derece olumlu bilinirliğini, yüksek hizmet kalitesi,
-          müşteri odaklı çalışması,<br> servislerinin garantili olması, sürekli
-          kendini yenileyen ve eğitimlerini aksatmayan güler yüzlü personeli,
-          iş disiplini ve takım çalışması <br>sayesinde sürdürmektedir.</p>
-      </div>
-      <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1">
-        <div class="col my-2">
-          <img src="images/kwm2.jpeg" class="gallery-item img-fluid p-2 bg-white border border-dark" alt="">
-        </div>
-        <div class="col my-2">
-          <img src="images/portofino.jpg" class="gallery-item img-fluid p-2 bg-white border border-dark" alt="">
-        </div>
-        <div class="col my-2">
-          <img src="images/husavik.jpg" class="gallery-item img-fluid p-2 bg-white border border-dark" alt="">
-        </div>
-        <div class="col my-2">
-          <img src="images/yachts.jpg" class="gallery-item img-fluid p-2 bg-white border border-dark" alt="">
-        </div>
-        <div class="col my-2">
-          <img src="images/anchored.jpg" class="gallery-item img-fluid p-2 bg-white border border-dark" alt="">
-        </div>
-        <div class="col my-2">
-          <img src="images/bottle.jpg" class="gallery-item img-fluid p-2 bg-white border border-dark" alt="">
-        </div>
-        <div class="col my-2">
-          <img src="images/marina.jpg" class="gallery-item img-fluid p-2 bg-white border border-dark" alt="">
-        </div>
-        <div class="col my-2">
-          <img src="images/port.jpg" class="gallery-item img-fluid p-2 bg-white border border-dark" alt="">
-        </div>
-        <div class="col my-2">
-          <img src="images/yacht.jpg" class="gallery-item img-fluid p-2 bg-white border border-dark" alt="">
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!--GALLERY SECTION ENDS-->
   <!--CONTACT SECTION ENDS-->
   <section id="contact" class="contact section-padding">
     <div class="container">
@@ -276,8 +222,8 @@
                   <i class="bi bi-telephone-outbound fa-2x rounded-circle flex-shrink-0" width="32" height="32"></i>
                   <div class="d-flex gap-2 w-100 justify-content-between">
                     <div>
-                      <h6 class="mb-0">Gsm : 0554 128 5466</h6>
-                      <p class="mb-0 opacity-75">Ofis : 0252 645 2999</p>
+                      <h6 class="mb-0">Gsm: 0554 128 5466</h6>
+                      <p class="mb-0 opacity-75">Ofis: 0252 645 2999</p>
                     </div>
                   </div>
                 </a>
@@ -321,7 +267,6 @@
       </div>
     </div>
   </section>
-
   <!--CONTACT SECTION ENDS-->
   <footer class="bg-dark p-2 text-center">
     <div class="container">

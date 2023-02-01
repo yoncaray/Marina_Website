@@ -59,6 +59,7 @@ body{
     font-size: 50px;
 }
 
+
 @media only screen and (min-width: 768px) and (max-width: 990px){
     .carousel-caption{
         bottom: 370px;

@@ -21,6 +21,13 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+.carousel-item img{
+    height: 100vh;
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .carousel-caption{
     z-index: 2;
 }
